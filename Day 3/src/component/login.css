@@ -1,0 +1,83 @@
+.login-container {
+    background-color: rgb(16, 16, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.mytechmag.com/wp-content/uploads/2022/05/Smart-Campus-Technology-What-You-Should-Know-1140x570.jpg');
+}
+
+.login {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login>h1 {
+    text-align: center;
+}
+
+.login-page {
+    margin: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+
+.login-page>h1:nth-child(1) {
+    border-radius: 1rem;
+    padding: 0 2rem;
+
+}
+
+.login-page>h1:nth-child(2) {
+    border-radius: 1rem;
+    padding: 0 2rem;
+}
+
+.active-login-page {
+    background-color: rgb(252, 252, 252);
+    color: rgb(20, 1, 1);
+    /* font-size: large; */
+    
+}
+
+.login-inputs {
+    display: grid;
+}
+
+.login-inputs>input {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    margin: 1rem 0;
+}
+
+.login>p {
+    color: lightskyblue;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button>button {
+    width: 70%;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
+    background-color: rgb(238, 19, 19);
+    color: rgb(14, 14, 14);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: larger;
+}
