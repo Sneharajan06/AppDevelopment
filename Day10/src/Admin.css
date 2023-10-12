@@ -1,0 +1,16 @@
+#table {
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-top: 3%;
+
+    & tr th {
+        width: 1em;
+        padding: .5em;
+    }
+
+    & tr td {
+        padding: 1em;
+    }
+}
