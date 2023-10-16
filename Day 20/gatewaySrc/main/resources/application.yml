@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: profile
+          uri: lb://PROJECT1-SERVER
+          predicates:
+            - Path=/profile1/**
+            
+        - id: project
+          uri: lb://PROJECT2-SERVER
+          predicates:
+            - Path=/project2/**
+             
+       
